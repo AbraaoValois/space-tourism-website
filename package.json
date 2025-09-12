@@ -1,0 +1,31 @@
+{
+  "name": "space-turism",
+  "version": "1.0.0",
+  "description": "Projeto Frontend Mentor - Space Tourism Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss:css",
+    "build:sass": "sass scss:css --no-source-map --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbraaoValois/space-tourism-website.git"
+  },
+  "keywords": [
+    "frontend-mentor",
+    "space-tourism",
+    "html",
+    "scss",
+    "javascript"
+  ],
+  "author": "Abraao Valois",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbraaoValois/space-tourism-website/issues"
+  },
+  "homepage": "https://github.com/AbraaoValois/space-tourism-website#readme",
+  "devDependencies": {
+    "sass": "^1.92.1"
+  }
+}
