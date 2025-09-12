@@ -1,0 +1,23 @@
+// utils
+@use 'utils/variables';
+@use 'utils/mixins';
+
+// base
+@use 'base/reset';
+@use 'base/typography';
+
+// layout
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/grid';
+
+// components
+@use 'components/buttons';
+@use 'components/tabs';
+@use 'components/cards';
+
+// páginas (opcional)
+@use 'pages/home';
+@use 'pages/destination';
+@use 'pages/crew';
+@use 'pages/technology';
