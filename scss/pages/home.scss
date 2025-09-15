@@ -1,18 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Barlow Condensed', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
-.site-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+html, body {
+  height: 100%; /* importante para a imagem ocupar toda a tela */
+}
+
+body {
+  /* Imagem de fundo */
+  background-image: url('/space-turism/assets/img/home/background-home-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Overlay semi-transparente */
+  background-color: rgba(112, 106, 106, 0.4);
+  background-blend-mode: overlay;
 }
